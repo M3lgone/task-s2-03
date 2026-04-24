@@ -1,0 +1,51 @@
+{
+  "name": "John Wein",
+  "adress": "Low Street 14, Palamos",
+  "telephone": 123456789,
+  "email": "John@example.com",
+  "registerDate": { "$date": "2025-06-24T10:00:00Z" },
+
+  "glasses": {
+    "brand": "RayBan",
+
+    "graduation": {
+      "graduationRight": { "$numberDecimal": "1.75" },
+      "graduationLeft": { "$numberDecimal": "1.50" }
+    },
+
+    "frame": "metal",
+
+    "colorFrame": "black",
+
+    "colorLens": {
+      "colorRight": "transparent",
+      "colorLeft": "transparent"
+    },
+
+    "supplier": {
+      "name": "OpticSupplier SL",
+      "address": {
+        "street": "Industry Street",
+        "number": 45,
+        "flat": 2,
+        "door": 1,
+        "city": "Barcelona",
+        "cp": 8001,
+        "country": "Spain"
+      },
+      "phone": "934567890",
+      "fax": "934567891",
+      "nif": "B12345678"
+    },
+
+    "price": { "$numberDecimal": "150.00" },
+
+    "boughtBy": [["Carl Young"], ["Mat Mason"]]
+  },
+
+  "employee": {
+    "name": "Claude Main"
+  },
+
+  "recomendedBy": "Cler Moon"
+}

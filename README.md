@@ -50,7 +50,7 @@ Interface reference:
 
 Data model:
 
-![Client Diagram](level-1/exercise-1/diagram.jpg)
+![Client Diagram](level-1/exercise-1/diagram-ex-1.pnj)
 
 ---
 
@@ -62,7 +62,7 @@ Interface reference:
 
 Data model:
 
-![Glasses Diagram](level-1/exercise-2/diagram.jpg)
+![Glasses Diagram](level-1/exercise-2/diagram-exercise-2.pnj)
 
 ---
 
@@ -146,26 +146,15 @@ use your_database
 MongoDB-estructura/  
 ├── level-1/  
 │   ├── exercise-1/  
-│   │   ├── ui_client.png  
-│   │   ├── diagram.jpg  
-│   │   └── collections.json  
+│   │   ├── client-script.js  
+│   │   ├── diagram-exercise-1.pnj
+│   │   └── client-script.json  
 │   │  
 │   └── exercise-2/  
-│       ├── ui_glasses.png  
-│       ├── diagram.jpg  
-│       └── collections.json  
-│  
-├── level-2/  
-│   └── exercise-1/  
-│       ├── ui_food.png  
-│       ├── diagram.jpg  
-│       └── collections.json  
-│  
-├── level-3/  
-│   └── exercise-1/  
-│       ├── ui_youtube.png  
-│       ├── diagram.jpg  
-│       └── collections.json  
+│       ├── glasses-script.js  
+│       ├── diagram-exercise-2.pnj  
+│       └── glasses-script.json  
+│
 │  
 ├── README.md  
 └── .gitignore  

@@ -1,0 +1,40 @@
+{
+  "name": "Max Power",
+  "adress": "Major Street 12, Girona",
+  "telephone": 123456789,
+  "email": "max@example.com",
+  "registerDate": { "$date": "2026-04-24T10:00:00Z" },
+  "lastShoppings": {
+    "brand": "RayBan",
+    "graduation": {
+      "graduationRight": { "$numberDecimal": "1.75" },
+      "graduationLeft": { "$numberDecimal": "1.50" }
+    },
+    "frame": "plastic",
+    "colorFrame": "black",
+    "colorLens": {
+      "colorRight": "transparent",
+      "colorLeft": "transparent"
+    },
+    "supplier": {
+      "name": "OpticSupplier SL",
+      "address": {
+        "street": "Industry Street",
+        "number": 45,
+        "flat": 2,
+        "door": 1,
+        "city": "Barcelona",
+        "cp": 8001,
+        "country": "Spain"
+      },
+      "phone": "934567890",
+      "fax": "934567891",
+      "nif": "B12345678"
+    },
+    "price": { "$numberDecimal": "120.00" }
+  },
+  "employee": {
+    "name": "Made Crow"
+  },
+  "recomendedBy": "Carl Young"
+}
