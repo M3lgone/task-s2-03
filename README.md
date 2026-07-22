@@ -50,7 +50,7 @@ Interface reference:
 
 Data model:
 
-![Client Diagram](level-1/exercise-1/diagram-ex-1.pnj)
+![Client Diagram](level-1/exercise-1/diagram-ex-1.png)
 
 ---
 
@@ -146,12 +146,10 @@ use your_database
 MongoDB-estructura/  
 ├── level-1/  
 │   ├── exercise-1/  
-│   │   ├── client-script.js  
 │   │   ├── diagram-exercise-1.pnj
 │   │   └── client-script.json  
 │   │  
 │   └── exercise-2/  
-│       ├── glasses-script.js  
 │       ├── diagram-exercise-2.pnj  
 │       └── glasses-script.json  
 │

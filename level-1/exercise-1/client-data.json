@@ -1,40 +1,74 @@
 {
-  "name": "Max Power",
-  "adress": "Major Street 12, Girona",
-  "telephone": 123456789,
-  "email": "max@example.com",
-  "registerDate": { "$date": "2026-04-24T10:00:00Z" },
-  "lastShoppings": {
-    "brand": "RayBan",
-    "graduation": {
-      "graduationRight": { "$numberDecimal": "1.75" },
-      "graduationLeft": { "$numberDecimal": "1.50" }
-    },
-    "frame": "plastic",
-    "colorFrame": "black",
-    "colorLens": {
-      "colorRight": "transparent",
-      "colorLeft": "transparent"
-    },
-    "supplier": {
-      "name": "OpticSupplier SL",
-      "address": {
-        "street": "Industry Street",
-        "number": 45,
-        "flat": 2,
-        "door": 1,
-        "city": "Barcelona",
-        "cp": 8001,
-        "country": "Spain"
+  "glasses": [
+    {
+      "_id": "glasses_1",
+      "brand": "RayBan",
+
+      "graduation": {
+        "graduationRight": {
+          "$numberDecimal": "1.75"
+        },
+        "graduationLeft": {
+          "$numberDecimal": "1.50"
+        }
       },
-      "phone": "934567890",
-      "fax": "934567891",
-      "nif": "B12345678"
+
+      "frame": "metal",
+
+      "colorFrame": "black",
+
+      "colorLens": {
+        "colorRight": "transparent",
+        "colorLeft": "transparent"
+      },
+
+      "supplier": {
+        "name": "OpticSupplier SL",
+        "address": {
+          "street": "Industry Street",
+          "number": 45,
+          "flat": 2,
+          "door": 1,
+          "city": "Barcelona",
+          "cp": 8001,
+          "country": "Spain"
+        },
+        "phone": "934567890",
+        "fax": "934567891",
+        "nif": "B12345678"
+      },
+
+      "price": {
+        "$numberDecimal": "150.00"
+      },
+
+      "boughtBy": [
+        "client_1",
+        "client_2"
+      ]
+    }
+  ],
+
+  "clients": [
+    {
+      "_id": "client_1",
+      "name": "John Wein",
+      "address": "Low Street 14, Palamos",
+      "telephone": 123456789,
+      "email": "john@example.com",
+      "registerDate": {
+        "$date": "2025-06-24T10:00:00Z"
+      }
     },
-    "price": { "$numberDecimal": "120.00" }
-  },
-  "employee": {
-    "name": "Made Crow"
-  },
-  "recomendedBy": "Carl Young"
+    {
+      "_id": "client_2",
+      "name": "Carl Young",
+      "address": "Main Street 25, Girona",
+      "telephone": 987654321,
+      "email": "carl@example.com",
+      "registerDate": {
+        "$date": "2025-06-25T10:00:00Z"
+      }
+    }
+  ]
 }
